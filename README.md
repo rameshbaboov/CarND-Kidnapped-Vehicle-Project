@@ -24,6 +24,8 @@ Below are the output of this project:
 
 ### cmake output:
 
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/1.JPG width = "480">
+
 ### make output:
 
 
