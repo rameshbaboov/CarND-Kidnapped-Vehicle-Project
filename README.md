@@ -27,13 +27,15 @@ Below are the output of this project:
 <img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/1.JPG width = "480">
 
 ### make output:
-
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/3.JPG width = "480">
 
 ### Simulator output:
 
 Once the code is run following message is displayed. The application connects to the Simulator on port # 4567 , once the project-3 is seleted and started on simulator as shown below:
 
-
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/4.JPG width = "480">
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/5.JPG width = "480">
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/6.JPG width = "480">
 
 ### Code:
 
@@ -44,14 +46,21 @@ Particle_filter.cpp – I used the starter code provided by Udacity. Below are t
 2. ParticleFilter::prediction: adds measurements to each particles and the random noise. The following equation is used:
 if yaw rate is zero:
 
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/8.JPG width = "480">
+
 3. ParticleFilter::dataAssociation - Finds the predicted measurement that is closest to each
 observed measurement and assign the observed measurement to this particular landmark. Called by
 ParticleFilter::updateWeights. This uses the dist function to calculate the distance and selects the
 shortest distance
 
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/9.JPG width = "480">
+
+
 4. ParticleFilter::updateWeights – calculates the weights of each particle using a multvariate
 Gaussian distribution. Also landmarks that are within the range are only considered because
 they only would hae been detected ny the partile
+
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/10.JPG width = "480">
 
 
 
@@ -66,6 +75,8 @@ localize the vehicle to within                              terminal. If the out
 the desired accuracy?                                       then it means you’ve met this criteria.
 
 Yes. The output says - "Success! Your particle filter passed!"
+
+<img src=https://github.com/rameshbaboov/CarND-Kidnapped-Vehicle-Project/blob/master/img/11.JPG width = "480">
 
 
 ### Rubric#2: Performance
